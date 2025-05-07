@@ -1,0 +1,363 @@
+{
+    "lot": "a8b7e8d4-5f6e-4c69-9d70-28c17b5dfb5f",
+    "parentLot": "",
+    "itemCode": "0045462",
+    "amount": 10308.0,
+    "per": "ea",
+    "type": "item",
+    "externalLot": "20220324_20220919",
+    "externalCode": "0045462",
+    "itemName": "Nasoya 맛김치 Spice 297g[제품]",
+    "subItems": [
+      {
+        "lot": "438fd95f-e0c4-4ff8-a0e4-2ab20fc5584f",
+        "parentLot": "a8b7e8d4-5f6e-4c69-9d70-28c17b5dfb5f",
+        "itemCode": "0045462",
+        "amount": 11854.2,
+        "per": "ea",
+        "type": "cover",
+        "externalLot": "20220304_9999",
+        "externalCode": "9304128",
+        "itemName": "수축_[미국]나소야Spicy397g_유한팩(필름)"
+      },
+      {
+        "lot": "9e369c8f-b6bb-4768-94a6-46fe9ae0de5e",
+        "parentLot": "a8b7e8d4-5f6e-4c69-9d70-28c17b5dfb5f",
+        "itemCode": "0045462",
+        "amount": 1803.9,
+        "per": "ea",
+        "type": "cover",
+        "externalLot": "20220314_9999",
+        "externalCode": "9304127",
+        "itemName": "박스_[미국]나소야Spicy397g*6개입_태림(종이)"
+      },
+      {
+        "lot": "2047f69e-ff4b-4052-b6e3-56cc2a59d4d4",
+        "parentLot": "a8b7e8d4-5f6e-4c69-9d70-28c17b5dfb5f",
+        "itemCode": "0045462",
+        "amount": 10823.4,
+        "per": "ea",
+        "type": "cover",
+        "externalLot": "20220315_9999",
+        "externalCode": "9304104",
+        "itemName": "캡_[수출]김치/레드+탈취제_HDPE사출_금성(폴라)"
+      },
+      {
+        "lot": "91e43d0b-dc85-44cf-b8f7-2c1197ed8f83",
+        "parentLot": "a8b7e8d4-5f6e-4c69-9d70-28c17b5dfb5f",
+        "itemCode": "0045462",
+        "amount": 10823.4,
+        "per": "ea",
+        "type": "cover",
+        "externalLot": "20220318_9999",
+        "externalCode": "9304122",
+        "itemName": "pet병_김치용397g_pet블로어_대림(폴라)"
+      },
+      {
+        "lot": "1a9de5fc-f7d1-487c-88b5-8ecce2ab2929",
+        "parentLot": "a8b7e8d4-5f6e-4c69-9d70-28c17b5dfb5f",
+        "itemCode": "0045462",
+        "amount": 4329.36,
+        "per": "kg",
+        "type": "subItem",
+        "externalLot": "20220323",
+        "externalCode": "1353953",
+        "itemName": "맛김치(수출) 반제품",
+        "subItems": [
+          {
+            "lot": "3a472172-f01e-47e9-94f6-00c258489a55",
+            "parentLot": "1a9de5fc-f7d1-487c-88b5-8ecce2ab2929",
+            "itemCode": "0045462",
+            "amount": 165.7024,
+            "per": "kg",
+            "type": "subItem",
+            "externalLot": "2022-03-18",
+            "externalCode": "1353966",
+            "itemName": "맛김치 수출양념"
+          },
+          {
+            "lot": "9a30c940-579b-4e6e-805c-ecba6b27c2d5",
+            "parentLot": "1a9de5fc-f7d1-487c-88b5-8ecce2ab2929",
+            "itemCode": "0045462",
+            "amount": 3243.2473,
+            "per": "kg",
+            "type": "subItem",
+            "externalLot": "20220322",
+            "externalCode": "1353951",
+            "itemName": "절임배추(맛김치)",
+            "subItems": [
+              {
+                "lot": "5cda19bb-d7aa-4d7f-8e84-9c77157a45f5",
+                "parentLot": "9a30c940-579b-4e6e-805c-ecba6b27c2d5",
+                "itemCode": "0045462",
+                "amount": 440.89,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220225_9999",
+                "externalCode": "3304108",
+                "itemName": "김치용_정제염"
+              },
+              {
+                "lot": "624e2c90-94b2-4de5-a3c2-353fef1ffdd3",
+                "parentLot": "9a30c940-579b-4e6e-805c-ecba6b27c2d5",
+                "itemCode": "0045362",
+                "amount": 928.36,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220304_9999",
+                "externalCode": "3304108",
+                "itemName": "김치용_정제염"
+              },
+              {
+                "lot": "ee6d6214-8a0c-414e-930a-fd3b4bb62c2c",
+                "parentLot": "9a30c940-579b-4e6e-805c-ecba6b27c2d5",
+                "itemCode": "0043362",
+                "amount": 5661.02,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220321_9999",
+                "externalCode": "3304083",
+                "itemName": "김치용_배추"
+              },
+              {
+                "lot": "3ae2fd36-53c9-42d5-96c2-9ee4a20b5a18",
+                "parentLot": "9a30c940-579b-4e6e-805c-ecba6b27c2d5",
+                "itemCode": "0043362",
+                "amount": 7496.0,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220321-9999",
+                "externalCode": "3304083",
+                "itemName": "김치용_배추"
+              },
+              {
+                "lot": "75f6b643-bc64-4d90-8850-ea3c163b25e0",
+                "parentLot": "9a30c940-579b-4e6e-805c-ecba6b27c2d5",
+                "itemCode": "0043362",
+                "amount": 10656.02,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220322_9999",
+                "externalCode": "3304083",
+                "itemName": "김치용_배추"
+              }
+            ]
+          },
+          {
+            "lot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+            "parentLot": "1a9de5fc-f7d1-487c-88b5-8ecce2ab2929",
+            "itemCode": "0045462",
+            "amount": 1704.0017,
+            "per": "kg",
+            "type": "subItem",
+            "externalLot": "2022-03-18",
+            "externalCode": "1353966",
+            "itemName": "맛김치 수출양념",
+            "subItems": [
+              {
+                "lot": "a56e15b0-b56e-4a86-bd61-3c6c15850e90",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 211.9971,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20210926_20220925",
+                "externalCode": "3304326",
+                "itemName": "김치용_중국산 직수입 고춧가루 (수출김치용)"
+              },
+              {
+                "lot": "6758c1a4-5d92-4ff1-90d1-4b30f83f530c",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 39.97,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20211027_20221027",
+                "externalCode": "3304102",
+                "itemName": "김치용_배퓨레"
+              },
+              {
+                "lot": "02b9f4ef-57bb-4cc9-99c9-d39e4074188a",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 19.37,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20211111_20221110",
+                "externalCode": "3304214",
+                "itemName": "김치용_지스텍스 흄 엘에스 파우더 (효모추출물)"
+              },
+              {
+                "lot": "1f4b1740-d445-4070-83b1-c2903e52b8c1",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 188.08,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220225_9999",
+                "externalCode": "3304107",
+                "itemName": "김치용_정백당"
+              },
+              {
+                "lot": "1f4b1740-d445-4070-83b1-c2903e52b8c1",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 188.08,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220225_9999",
+                "externalCode": "3304107",
+                "itemName": "김치용_정백당"
+              },
+              {
+                "lot": "a6a76e80-328e-4a50-a7fa-b0e7f3d2f84b",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 45.6,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220304_9999",
+                "externalCode": "3304108",
+                "itemName": "김치용_정제염"
+              },
+              {
+                "lot": "8e5703a5-ef1f-4422-b03c-160377b14b6d",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 13.5,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220310_20240302",
+                "externalCode": "3304097",
+                "itemName": "김치용_생강(페루산_냉동)"
+              },
+              {
+                "lot": "5cd91de9-4f65-4133-bd65-1d3511c7a3c1",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 101.26,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220314_9999",
+                "externalCode": "3304094",
+                "itemName": "김치용_수입당근(중국산)"
+              },
+              {
+                "lot": "b859ce39-cd60-4f3b-8105-58fd623053b7",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 452.55,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220316_9999",
+                "externalCode": "3304089",
+                "itemName": "김치용_무(세척무)"
+              },
+              {
+                "lot": "f38480c3-9797-4149-91e4-091f47d2b308",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 122.12,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220321_9999",
+                "externalCode": "3304085",
+                "itemName": "김치용_마늘"
+              },
+              {
+                "lot": "cce06b8b-8f70-4373-9671-12a40b69950c",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 59.07,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220321_9999",
+                "externalCode": "3304165",
+                "itemName": "김치용_부추(신)"
+              },
+              {
+                "lot": "649fb08f-22a5-4f63-8f29-d5e937ad94c0",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 154.41,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220323_9999",
+                "externalCode": "3304086",
+                "itemName": "김치용_양파파"
+              },
+              {
+                "lot": "73bc0d80-2910-46ff-83ea-fb8c0d901a6f",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 59.07,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220323_9999",
+                "externalCode": "3304095",
+                "itemName": "김치용_대파파"
+              },
+              {
+                "lot": "c85bbfd5-f8fd-4416-bb9e-b1a33ef46b6d",
+                "parentLot": "f8c05d19-17a7-41f1-bd17-d5194f2b59ef",
+                "itemCode": "0045462",
+                "amount": 70.5,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220323_9999",
+                "externalCode": "3304085",
+                "itemName": "김치용_마늘"
+              }
+            ]
+          },
+          {
+            "lot": "346a4a96-962c-4b4f-840e-56fc7302e3e3",
+            "parentLot": "1a9de5fc-f7d1-487c-88b5-8ecce2ab2929",
+            "itemCode": "0045462",
+            "amount": 2966.5862,
+            "per": "kg",
+            "type": "subItem",
+            "externalLot": "20220323",
+            "externalCode": "1353951",
+            "itemName": "절임배추(맛김치)",
+            "subItems": [
+              {
+                "lot": "8627680f-4e49-417e-a022-69b2812a5453",
+                "parentLot": "346a4a96-962c-4b4f-840e-56fc7302e3e3",
+                "itemCode": "0045462",
+                "amount": 1150.88,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220225_9999",
+                "externalCode": "3304108",
+                "itemName": "김치용_정제염"
+              },
+              {
+                "lot": "6c9bfc12-0a41-4a2f-89fd-3c837d7890ce",
+                "parentLot": "346a4a96-962c-4b4f-840e-56fc7302e3e3",
+                "itemCode": "0045462",
+                "amount": 3969.98,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220321-9999",
+                "externalCode": "3304083",
+                "itemName": "김치용_배추"
+              },
+              {
+                "lot": "f5c7be7e-9a62-4f20-94a9-c22b3bbd7d6d",
+                "parentLot": "346a4a96-962c-4b4f-840e-56fc7302e3e3",
+                "itemCode": "0045462",
+                "amount": 16045.24,
+                "per": "kg",
+                "type": "rawItem",
+                "externalLot": "20220322_9999",
+                "externalCode": "3304083",
+                "itemName": "김치용_배추"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

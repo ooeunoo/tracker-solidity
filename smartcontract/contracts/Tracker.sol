@@ -313,7 +313,7 @@ contract Tracker {
         return count;
     }
 
-    // 재귀적으로 모든 아이템을 평면 구조로 가져오는 고급 함수 (기존 함수)
+    // 재귀적으로 모든 아이템을 평면 구조로 가져오는 고급 함수
     function getAllItemsFlat(
         bytes32 _rootLot
     ) public view returns (bytes32[] memory) {
@@ -479,6 +479,22 @@ contract Tracker {
         }
     }
 
+    function batchAddItemsStruct(Item[] memory itemList) public {
+        for (uint256 i = 0; i < itemList.length; i++) {
+            Item memory item = itemList[i];
+            addItem(
+                item.lot,
+                item.parentLot,
+                item.itemCode,
+                item.amount,
+                item.per,
+                item.itemType,
+                item.externalLot,
+                item.externalCode,
+                item.itemName
+            );
+        }
+    }
     // 하위 아이템 일괄 추가 (기존 함수도 호환성을 위해 유지)
     function batchAddSubItems(
         bytes32[] memory _parentLots,

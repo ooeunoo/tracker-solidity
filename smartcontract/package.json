@@ -1,9 +1,15 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "deploy:sepolia": "ts-node scripts/deploy.ts --network sepolia"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "chai": "^4.5.0",
     "ethers": "^6.14.0",
     "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0"
   }
 }

@@ -1,0 +1,844 @@
+[
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "lot",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "internalType": "string",
+          "name": "itemCode",
+          "type": "string"
+        }
+      ],
+      "name": "ItemAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "lot",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "internalType": "string",
+          "name": "itemCode",
+          "type": "string"
+        }
+      ],
+      "name": "ItemUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "parentLot",
+          "type": "bytes32"
+        },
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "subItemLot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "SubItemAdded",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_lot",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_parentLot",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_itemCode",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_per",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_type",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_externalLot",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_externalCode",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_itemName",
+          "type": "string"
+        }
+      ],
+      "name": "addItem",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_parentLot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_subItemLot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "addSubItem",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string[]",
+          "name": "_lots",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_parentLots",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_itemCodes",
+          "type": "string[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "_amounts",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_pers",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_types",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_externalLots",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_externalCodes",
+          "type": "string[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "_itemNames",
+          "type": "string[]"
+        }
+      ],
+      "name": "batchAddItems",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "_parentLots",
+          "type": "bytes32[]"
+        },
+        {
+          "internalType": "bytes32[]",
+          "name": "_subItemLots",
+          "type": "bytes32[]"
+        }
+      ],
+      "name": "batchAddSubItems",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "countByItemCode",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_rootLot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getAllItemsFlat",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_parentLot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getChildrenByParent",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_rootLot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getCompleteItemTree",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes32",
+              "name": "lot",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "parentLot",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "string",
+              "name": "itemCode",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "per",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "itemType",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "externalLot",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "externalCode",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "itemName",
+              "type": "string"
+            },
+            {
+              "internalType": "bytes32[]",
+              "name": "childrenIds",
+              "type": "bytes32[]"
+            }
+          ],
+          "internalType": "struct Tracker.ItemDetail[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_lot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getItem",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "lot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "parentLot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "string",
+          "name": "itemCode",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "per",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "itemType",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "externalLot",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "externalCode",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "itemName",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "subItemCount",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_itemCode",
+          "type": "string"
+        }
+      ],
+      "name": "getItemTreeByCode",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes32",
+              "name": "lot",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "parentLot",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "string",
+              "name": "itemCode",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "per",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "itemType",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "externalLot",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "externalCode",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "itemName",
+              "type": "string"
+            },
+            {
+              "internalType": "bytes32[]",
+              "name": "childrenIds",
+              "type": "bytes32[]"
+            }
+          ],
+          "internalType": "struct Tracker.ItemDetail[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_lot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getItemWithAllChildren",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes32",
+              "name": "lot",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "parentLot",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "string",
+              "name": "itemCode",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "internalType": "string",
+              "name": "per",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "itemType",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "externalLot",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "externalCode",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "itemName",
+              "type": "string"
+            },
+            {
+              "internalType": "bytes32[]",
+              "name": "childrenIds",
+              "type": "bytes32[]"
+            }
+          ],
+          "internalType": "struct Tracker.ItemDetail[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_itemCode",
+          "type": "string"
+        }
+      ],
+      "name": "getItemsByCode",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_type",
+          "type": "string"
+        }
+      ],
+      "name": "getItemsByType",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_lot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getParent",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_lot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "getSubItems",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "",
+          "type": "bytes32[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "headByItemCode",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "items",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "lot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "parentLot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "string",
+          "name": "itemCode",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "per",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "itemType",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "externalLot",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "externalCode",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "itemName",
+          "type": "string"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "nextItem",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "prevItem",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "itemsByCode",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "itemsByType",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "name": "tailByItemCode",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "_itemCode",
+          "type": "string"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_limit",
+          "type": "uint256"
+        }
+      ],
+      "name": "traverseItemsByCode",
+      "outputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "lots",
+          "type": "bytes32[]"
+        },
+        {
+          "internalType": "string[]",
+          "name": "itemNames",
+          "type": "string[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_lot",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_amount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "string",
+          "name": "_per",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_externalLot",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_externalCode",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "_itemName",
+          "type": "string"
+        }
+      ],
+      "name": "updateItem",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
